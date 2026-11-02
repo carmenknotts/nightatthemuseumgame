@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <video id="video" width="640" height="480" autoplay></video>
+
+        <h2>Sample face markers</h2>
+        <h3>0 (top lip) and 17 (bottom lip), y values only</h3>
+        <p id="top-lip"></p>
+        <p id="bottom-lip"></p>
+        <p>
+            Find map
+            <a
+                href="https://developers.google.com/edge/mediapipe/solutions/vision/face_landmarker"
+                target="_blank"
+                >here</a
+            >.
+        </p>
+
+        <h2>Sample hand markers (one hand only)</h2>
+        <h3>4 (thumb tip) and 8 (index tip), x and y values only</h3>
+        <p id="thumb-tip"></p>
+        <p id="index-tip"></p>
+        <p>
+            Find map
+            <a
+                href="https://developers.google.com/edge/mediapipe/solutions/vision/hand_landmarker"
+                target="_blank"
+                >here</a
+            >.
+        </p>
+
+        <h2>Sample gesture (one hand only)</h2>
+        <p id="gesture-type"></p>
+        <p>
+            Find list
+            <a
+                href="https://developers.google.com/edge/mediapipe/solutions/vision/gesture_recognizer#gesture_classification_model_bundle"
+                target="_blank"
+                >here</a
+            >.
+        </p>
+
+        <script type="module" src="script.js"></script>
+    </body>
+</html>

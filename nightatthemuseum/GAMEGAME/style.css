@@ -1,0 +1,10 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #07060c;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
